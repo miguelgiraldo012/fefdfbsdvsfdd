@@ -1,0 +1,240 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+    font-family: 'Bebas Neue';
+    
+    }
+    
+    .contenedor{
+        padding: 60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 20px;
+    
+    }  
+    
+    .titulo{
+    
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+    
+    /*Header*/
+    
+    header{
+    
+    width: 100%;
+    height: 400px;
+    background: rgb(20, 31, 77),url(.../img/arbol.jpg);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #15114b, #03021afd )url(.../img/arbol.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  #15114b, #03021afd),url(.../img/arbol.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    nav{
+    
+    text-align: right;
+    padding: 30px 50px 0 0;
+    font-size: 20px;
+    }
+    
+    nav>a{
+    
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    
+    }
+    
+    nav> a:hover{
+    
+    text-decoration: underline;
+    }
+    
+header .textos-header{
+
+    display: flex;
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .h1{
+        font-size: 50px;
+        color: #fff;
+        position: absolute;
+        margin-left: 550px;
+        margin-top: 90px;
+        
+    }
+    
+    .button{
+            width: 350px;
+            display: block;
+            background: #EDE574;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right,  #464b49, #969797);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right,  #464b49, #969797); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            padding: 20px 40px;
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+            color: white;
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1000px;
+            text-decoration: none;
+            transition: all 300ms;
+            border-radius: 5px;
+        }
+    
+    .button:hover{
+        transform:translatey(10px);
+        box-shadow: 0px 30px 5px -5px rgba(0, 0, 0, 0.3);
+    }	
+    
+    
+    .weve{
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%       
+     } 
+
+     /*video*/
+     .video{
+         
+        background: hsla(70, 13%, 91%, 0.582);
+         display: absolute;
+        
+     }
+
+     .contenido-video{
+         align-items: center;
+         margin-left: 260px;
+     }
+
+     /*libros*/
+
+
+     .contenedor-libro{
+
+    display: flex;
+    justify-content: space-evenly;
+    background: hsla(67, 9%, 81%, 0.582);
+    
+    
+     }
+
+     .imagen-libro3{
+
+        width: 25%;
+        align-items: center;
+        display:inline-block;
+        vertical-align: middle; 
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 20px;        
+
+     }
+
+     .contenido-textos{
+        width: 48%;
+        text-align: center;
+        margin-top:80px ;
+        
+    }
+
+    .contenido-textos h3{
+        margin-bottom: 20px;
+
+        
+        
+    }
+
+    .contenido-textos p{
+        padding: 0px 0px 30px 15px;
+        font-weight: 300;
+        text-align: center;
+        display: inline-block;
+        
+        }
+
+        .contenido-ficha{
+            display: inline-block;
+        }
+
+        /*footer*/
+ 
+.footer{
+	background: rgb(254, 254, 255);
+	padding: 60px 30px 0;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 100%;
+	height: 150%;
+	justify-content: space-evenly;
+	margin-top: 0px;
+	padding-bottom: 80px;
+	background: #0F3440;
+}
+
+.content-foo{
+	text-align: center;
+    margin-top: 50px;
+    
+}
+
+.content-foo h4{
+	color:  rgb(177, 174, 174);
+	
+	padding-bottom: 5px;
+	margin-top: 30px;
+    text-align: center;
+    
+}
+
+.content-foo p{
+	color: rgba(177, 174, 174, 0.658);
+	
+
+}
+
+.titulo-final{
+	font-size: 24px;
+	
+    color: rgba(178, 189, 22, 0.534);
+    margin-top: 20px;
+ }
+
+ .p{
+     text-align: right;
+     color: rgb(255, 255, 255);
+ }
+  
+ .img{
+
+	right: 100px;
+
+ }
