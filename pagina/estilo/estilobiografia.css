@@ -1,0 +1,202 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+    font-family: 'Bebas Neue';
+    
+    }
+    
+    .contenedor{
+        padding: 60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+
+    
+    }  
+    
+    .titulo{
+    
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    /*Header*/
+    
+    header{
+    
+    width: 100%;
+    height: 400px;
+    background: #6D6027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #383630, #131312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #383630, #131312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    nav{
+    
+    text-align: right;
+    padding: 30px 50px 0 0;
+    font-size: 20px;
+    }
+    
+    nav>a{
+    
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    
+    }
+    
+    nav> a:hover{
+    
+    text-decoration: underline;
+    }
+    
+    header .textos-header{
+    
+    display: flex;
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .h1{
+        font-size: 50px;
+        color: #fff;
+        position: absolute;
+        margin-left: 520px;
+        margin-top: 90px;
+        
+    }
+    
+    .button{
+            width: 350px;
+            display: block;
+            background: #EDE574;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #7e8d68, #464625);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #7e8d68, #464625); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            padding: 20px 40px;
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+            color: white;
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1000px;
+            text-decoration: none;
+            transition: all 300ms;
+            border-radius: 5px;
+        }
+    
+    .button:hover{
+        transform:translatey(10px);
+        box-shadow: 0px 30px 5px -5px rgba(0, 0, 0, 0.3);
+    }	
+    
+    
+    .weve{
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%
+      }
+    
+      /*biografia*/
+
+      .biografia{
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 0px;
+          background: rgba(246, 249, 250, 0.829);
+          margin-bottom: 173px;
+      }
+
+      .imagen-biografia{
+        width: 30%;
+        align-items: center;
+        display:inline-block;
+        vertical-align: middle;
+        margin-right: 100px;
+        margin-left: 50px;
+      }
+      
+      .contenido-biografia{
+          font-size: 17px;
+          text-align: justify;
+          margin-right: 40px;
+          
+      }
+
+      /*footer*/
+ 
+.footer{
+	background: #3C3B3F;
+	padding: 60px 30px 0;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 100%;
+	height: 150%;
+	justify-content: space-evenly;
+	margin-top: 0px;
+	padding-bottom: 80px;
+	background: rgb(138, 136, 136);
+}
+
+.content-foo{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.content.foo h4{
+	color: rgb(51, 49, 49);
+	border-bottom: 3px solid #3C3B3F;
+	padding-bottom: 5px;
+	margin-top: 30px;
+    text-align: center;
+    
+}
+
+.content.foo p{
+	color: rgb(56, 55, 55);
+	
+
+}
+
+.titulo-final{
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: rgb(56, 55, 55);
+ }
+
+ .p{
+	 text-align: right;
+ }
+  
+ .img{
+
+	right: 100px;
+
+ }
+
+      
